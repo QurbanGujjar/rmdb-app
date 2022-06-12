@@ -1,0 +1,51 @@
+.main {
+    /* position: static; */
+    background-color: #FBFBFB;
+    margin-top: 70px;
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.sideNav {
+    position: relative;
+    top: 0px;
+    z-index: 000;
+    width: 220px;
+    height: auto;
+    background-color: white;
+    /* border: 2px solid red; */
+}
+
+.item:hover {
+    background-color: #e9f3f5;
+}
+
+.profileItem {
+    padding-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: flex-start;
+    text-align: end;
+    cursor: pointer;
+}
+
+.profileItem .icon {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+
+/* .sidenav {
+    margin: 0;
+    padding: 0;
+} */
+
+
+/* .sidenav button {
+    display: block;
+    width: 97%;
+} */
